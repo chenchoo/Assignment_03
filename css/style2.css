@@ -1,0 +1,16 @@
+#container{
+  background: #f0efef;
+}
+
+header{
+  background: #033048;
+  float: left;
+  width: 620px;
+}
+
+nav{
+  padding: 20px;
+}
+
+.left{
+}
