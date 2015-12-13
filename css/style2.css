@@ -1,5 +1,6 @@
 #container{
   background: #f0efef;
+  height: auto;
 }
 
 header{
@@ -13,4 +14,25 @@ nav{
 }
 
 .left{
+  width: 450px;
+  float: left;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+
+img{
+  width: 400px;
+}
+
+/* sorting image width? */
+
+.readmore{
+  text-align: right;
+  background: #fff;
+}
+
+/* align right not working?? */
+
+.about-relaxr img{
+  width: 120px;
 }
