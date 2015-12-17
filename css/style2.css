@@ -5,12 +5,37 @@
 
 header{
   background: #033048;
-  float: left;
   width: 620px;
+  height: 60px;
 }
 
-nav{
-  padding: 20px;
+header nav a{
+  float: right;
+  text-decoration: none;
+  font-weight: 600;
+  color: #f9e42e;
+  margin-left: 5px;
+  padding-top: 25px;
+  padding-right: 25px;
+}
+
+header nav{
+}
+
+h1{
+  padding-top: 0px;
+}
+
+h3{
+  margin-top: 20px;
+  line-height: 1.25;
+}
+
+h5{
+  font-weight: 800;
+  font-size: 15px;
+  margin-bottom: 0px;
+  color: #033048;
 }
 
 .left{
@@ -20,19 +45,54 @@ nav{
   padding-right: 10px;
 }
 
-img{
-  width: 400px;
+.left img{
+  width: 100%;
+  height: auto;
 }
-
-/* sorting image width? */
 
 .readmore{
   text-align: right;
-  background: #fff;
+  padding: 10px 0px;
 }
 
-/* align right not working?? */
+.readmore a{
+  text-decoration: none;
+  font-weight: 600;
+  color: #033048;
+}
+
+.article2{
+  padding-bottom: 60px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a{
+  text-decoration: none;
+  color: #033048;
+  font-weight: 300;
+}
+
+.about-relaxr a{
+  text-decoration: none;
+  color: #033048;
+  font-weight: 800;
+}
 
 .about-relaxr img{
   width: 120px;
+  margin-top: 25px;
+}
+
+.about-relaxr p{
+  text-decoration: none;
+  color: #033048;
+  font-weight: 300;
+  margin-top: 12px;
+}
+
+.footer2 img{
+  height: 15px;
 }
